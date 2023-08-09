@@ -3,6 +3,7 @@ package cola
 import (
 	"fmt"
 )
+
 // Cola genérica, soporta cualquier tipo de dato
 // Se implementa con un slice
 type Cola[T any] struct {
